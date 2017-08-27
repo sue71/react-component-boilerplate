@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noLib": false,
+    "lib": ["dom", "es6"],
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./lib"
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/__spec__",
+    "stories"
+  ]
+}
